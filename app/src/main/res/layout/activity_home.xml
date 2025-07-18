@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F0F8EA" android:padding="32dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tvTituloApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noticias UTEQ"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#2E8B57" android:layout_marginBottom="24dp" />
+
+    <ImageView
+        android:id="@+id/ivLogoUteq"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/uteq_logo" android:scaleType="fitCenter"
+        android:layout_marginBottom="32dp"
+        tools:ignore="ContentDescription" /> <Button
+    android:id="@+id/btnVerNoticias"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ver Últimas Noticias"
+    android:textSize="18sp"
+    android:backgroundTint="#4682B4" android:textColor="#FFFFFF"
+    android:paddingHorizontal="48dp" />
+
+</LinearLayout>
